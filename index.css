@@ -1,0 +1,35 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 8px;
+  font-family: roboto;
+}
+@media screen and (minwidth: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  height: 200px;
+  width: 200px;
+}
+@media screen and (miwidth: 768px) {
+  .image {
+    height: 300px;
+    width: 300px;
+  }
+}
